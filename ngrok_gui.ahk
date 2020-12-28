@@ -32,7 +32,7 @@ Gui, Add, Text, x12 y109 w210 h20 , Region
 Gui, Add, Edit, x12 y129 w210 h20 Limit2 vRegion , %opt_Region%
 Gui, Add, Button, x12 y159 w210 h30 gStartNgrok , Start
 
-Gui, Show, Center h201 w234, ngrok GUI
+Gui, Show, Center h201 w234, ngrok GUI 0.1
 Return
 
 GuiClose:
